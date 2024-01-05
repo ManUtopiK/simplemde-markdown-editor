@@ -1,0 +1,357 @@
+repo_name: ManUtopiK/simplemde-markdown-editor
+report_id: d85f152c6af7ce469a565c1eb64e721c
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:21:34+00:00'
+requested_by: WesCossick
+provider: github
+branch: master
+detected_tools_count: 22
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor
+  detection_source: Repo Metadata
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 11.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: PhantomX
+  last_updated_on: 2015-10-07 20:52:14.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Wes Cossick
+  last_updated_on: 2015-11-03 20:26:28.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Fernando Mendes
+  last_updated_on: 2015-08-11 15:34:14.000000000 Z
+- name: browserify-shim
+  description: Makes CommonJS-incompatible modules browserifyable
+  package_url: https://www.npmjs.com/browserify-shim
+  version: 3.8.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16678/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+  vulnerabilities:
+  - name: debug Inefficient Regular Expression Complexity vulnerability
+    cve_id: CVE-2017-20165
+    cve_url: https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+    detected_date: Jan 11
+    severity: high
+    first_patched: 2.6.9
+  - name: Regular Expression Denial of Service in debug
+    cve_id: CVE-2017-16137
+    cve_url: https://github.com/advisories/GHSA-gxpj-cx7g-858c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.6.9
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: gulp-debug
+  description: Debug Vinyl file streams to see what files are run through your Gulp
+    pipeline
+  package_url: https://www.npmjs.com/gulp-debug
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16648/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: gulp-eslint
+  description: A gulp plugin for processing files with ESLint
+  package_url: https://www.npmjs.com/gulp-eslint
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16009/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: gulp-header
+  description: Gulp extension to add header to file
+  package_url: https://www.npmjs.com/gulp-header
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16259/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: gulp-jsbeautifier
+  description: Js-beautify for Gulp
+  package_url: https://www.npmjs.com/gulp-jsbeautifier
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18343/default_184dcb86fb81ac8ceaaf92492886106219fc04d9.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: gulp-minify-css
+  description: Minify css with clean-css
+  package_url: https://www.npmjs.com/gulp-minify-css
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16291/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 0.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Regular Expression Denial of Service in marked
+    cve_id: CVE-2017-16114
+    cve_url: https://github.com/advisories/GHSA-x5pg-88wf-qq4p
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.3.9
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Content injection in marked
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-wjmf-58vc-xqjr
+    detected_date: Aug 13
+    severity: moderate
+    first_patched: 0.3.9
+  - name: Cross-Site Scripting in marked
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8wp3-cp9v-44fm
+    detected_date: Aug 13
+    severity: moderate
+    first_patched: 0.3.9
+  - name: Sanitization bypass using HTML Entities in marked
+    cve_id: CVE-2016-10531
+    cve_url: https://github.com/advisories/GHSA-vfvf-mqq8-rwqc
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.6
+  - name: Moderate severity vulnerability that affects marked
+    cve_id: CVE-2017-17461
+    cve_url: https://github.com/advisories/GHSA-crmx-v835-hcp4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.9
+  - name: Marked vulnerable to XSS from data URIs
+    cve_id: CVE-2017-1000427
+    cve_url: https://github.com/advisories/GHSA-7px7-7xjx-hxm8
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.3.7
+- name: vinyl-buffer
+  description: Convert streaming vinyl files to use buffers
+  package_url: https://www.npmjs.com/vinyl-buffer
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16203/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
+- name: vinyl-source-stream
+  description: Use conventional text streams at the start of your gulp or vinyl pipelines
+  package_url: https://www.npmjs.com/vinyl-source-stream
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16081/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/ManUtopiK/simplemde-markdown-editor/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Wes Cossick
+  last_updated_on: 2016-03-15 02:28:56.000000000 Z
